@@ -1,14 +1,17 @@
 import React from 'react'
 
-function PokeInfo() {
+const PokeInfo = ({data}) => {
   // fetch('https://pokeapi.co/api/v2/pokemon/geodude')
 
-
+// console.log(data)
   return (
-    <div>
-      <h1>Geodude</h1>
-      <img className="smallImg" src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg' />
-      <div className='abilites'>
+    <>
+      {
+        (!data)?"":(
+          <>
+          <h1>{data.name}</h1>
+      <img className="smallImg" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} />
+      {/* <div className='abilites'>
         <div className = "group" >
           <h2>Rock-head</h2>
         </div>
@@ -26,8 +29,11 @@ function PokeInfo() {
         <h3>special-attack: 30</h3>
         <h3>special-defense: 30</h3>
         <h3>speed:: 20</h3>
-      </div>
-    </div>
+      </div> */}
+      </>
+        )
+      }
+    </>
   )
 }
 
