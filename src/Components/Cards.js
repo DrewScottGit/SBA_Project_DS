@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Cards ({pokemon,loading, infoPokemon}) {
-  
+  console.log(pokemon)
     return (
       <>
         {
@@ -16,12 +16,7 @@ function Cards ({pokemon,loading, infoPokemon}) {
           )
         })
       }
-        {/* <div className='pokeCard' >
-        //    <h1 className='cardText'>1.</h1>
-        //    <img className ='pokeIMG' src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg' alt='' />
-        //    <h2 className='cardText'>Geodude</h2>
-        // </div>
-        // </button> */}
+       
         </>
       )
 }
