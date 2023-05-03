@@ -1,9 +1,6 @@
 import React from 'react'
 
 const PokeInfo = ({data}) => {
-  // fetch('https://pokeapi.co/api/v2/pokemon/geodude')
-
-// console.log(data)
   return (
     <>
       {

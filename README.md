@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Pokemon REST API with React 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A functional foundation of a PokeDex project written using React JS, HTML, and CSS.
 
-## Available Scripts
+This project is an example that was built showing how a PokeDex can function with a list menu style. Half of the page displays 20 Pokemon that originate from the PokeAPI. Specifically sourced from "https://pokeapi.co/api/v2/pokemon/". The other half displays the Pokemon selected name, and image.  Future capabilites will utilize pages that display 20 different Pokemon when the next or previous buttons are selected. Also, selected Pokemon data will display in future state.
 
-In the project directory, you can run:
+    - Initialze a React project
+    - Utilize Import and Export functionality within React
+    - Import libraries as needed and for practice
+        - Added packages
+        -- "react-router-dom"
+        -- "axios" (not used in submitted project)
+        -- "material-ui" (not used in submitted project)
+    - Utilize capabilites imported from 'react'
+        - useState
+        - useEffect
+        - React
 
-### `npm start`
+<img src="Screenshot 2023-05-02 214317.png" height="150" width="150/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to install this example
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The easiest way to see how this works is to see the code for yourself.
 
-### `npm test`
+1. Clone this project
+2. Install additonal libraires listed above
+3. Start the application 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Known issues
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Next button
+- Previous button
+- stric mode removed
+-- removed due to duplicate data being passed into our application

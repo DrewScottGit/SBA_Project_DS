@@ -89,7 +89,7 @@ const Pokemon = () => {
         return (
 
         <div className='pokeContainer'>
-           {pokeData.length > 0 ?
+           {pokeData.length > 0?
            <div>
             <div className='left-side'>
         
