@@ -4,6 +4,9 @@
 
 This project is an example that was built showing how a PokeDex can function with a list menu style. Half of the page displays 20 Pokemon that originate from the PokeAPI. Specifically sourced from "https://pokeapi.co/api/v2/pokemon/". The other half displays the Pokemon selected name, and image.  Future capabilites will utilize pages that display 20 different Pokemon when the next or previous buttons are selected. Also, selected Pokemon data will display in future state.
 
+# Here is the link to access the project on Redner
+## https://ds-pokedex-project.onrender.com
+
     - Initialze a React project
     - Utilize Import and Export functionality within React
     - Import libraries as needed and for practice
