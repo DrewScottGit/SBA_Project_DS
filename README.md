@@ -16,7 +16,6 @@ This project is an example that was built showing how a PokeDex can function wit
         - useEffect
         - React
 
-<img src="Screenshot 2023-05-02 214317.png" height="150" width="150/>
 
 ## How to install this example
 
